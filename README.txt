@@ -15,9 +15,12 @@ robustness
 
 DATASET STRUCTURE: train/ class_folders… test/ same class folders…
 
-INSTALLATION: 1. Install required libraries: pip install tensorflow
-pillow numpy opencv-python 2. Update dataset paths inside main.py 3.
-Run: python main.py 4. The GUI will launch automatically after training.
+INSTALLATION:
+1. Install required libraries: pip install tensorflow
+pillow numpy opencv-python 
+2. Update dataset paths inside main.py 
+3.Run: python main.py 
+4. The GUI will launch automatically after training.
 
 WORKFLOW: - Loads and augments training images - Builds and trains four
 transfer-learning CNN models - Compares validation accuracy and saves
